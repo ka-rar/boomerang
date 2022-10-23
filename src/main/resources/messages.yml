@@ -1,0 +1,8 @@
+# messages
+no-permission: '&cYou do not have permission to perform this command.'
+invalid-syntax: '&cUsage: /boomerang <player> [amount]'
+successful: '&eGave &d{amount}&e boomerang{s} to &d{player}&e.'
+failed-offline: '&cThe player {player} is not online.'
+failed-invalid-amount: '&cThe amount {amount} is not a valid number.'
+failed-negative-amount: '&cThe amount {amount} is not positive.'
+failed-inventory-full: '&cThe player {player} has a full inventory.'

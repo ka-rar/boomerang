@@ -1,0 +1,50 @@
+# config
+damage-mob: true
+damage-villager: false
+damage-player: false
+
+animation:
+  throw:
+    damage: 20
+    rotate-speed: 60 # (int) per tick
+    radius: 1 # (double) blocks
+    duration: 20 # (int) ticks
+  return:
+    damage: 20
+    rotate-speed: 60
+    radius: 1
+    duration: 20
+  catch:
+    # t: prioritize catch on radius from player / f: rely on duration
+    proximity: true
+    radius: 0.1
+
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+BOOMERANG:
+  material: BONE
+  type: 0
+  name: '&6Boomerang'
+  lore:
+    - '&7Forged by the &cmightiest'
+    - '&7calcium deposits in the lands.'
+    - ''
+    - '&eClick to throw!'
+  enchantments:
+    - 'DURABILITY:1'
+  flags:
+    - 'HIDE_ENCHANTS'
+  unique: true
+
+SEDENTARY_BOOMERANG:
+  material: GHAST_TEAR
+  type: 0
+  name: '&6Boomerang'
+  lore:
+    - '&7Forged by the &cmightiest'
+    - '&7calcium deposits in the lands.'
+  enchantments:
+    - 'DURABILITY:1'
+  flags:
+    - 'HIDE_ENCHANTS'
+  unique: true

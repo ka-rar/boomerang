@@ -1,0 +1,10 @@
+name: Boomerang
+author: Karar
+description: Bone-y boomerangs.
+version: 1.0
+
+main: dev.karar.boomerang.Boomerang
+
+commands:
+  boomerang:
+    description: Acquire a boomerang!
