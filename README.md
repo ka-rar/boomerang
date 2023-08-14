@@ -1,7 +1,7 @@
 # Boomerang
 Boomerang is a highly-configurable Minecraft Spigot plugin <b>(1.8.*)</b>, designed to give players a unique approach at enemy encounters with bone-y boomerangs.
 
-If you encounter any problems, [create a GitHub issue](https://github.com/vbmr/Boomerang/issues/new).
+If you encounter any problems, [create a GitHub issue](https://github.com/ka-rar/boomerang/issues/new).
 
 ## Commands
 * `/boomerang <player> [amount]` (`boomerang.give`): Acquire a boomerang!
@@ -73,13 +73,17 @@ failed-inventory-full: '&cThe player {player} has a full inventory.'
 ```
 
 ## Installation
-To get the jar, either download it from the releases tab here on [GitHub](https://github.com/vbmr/Boomerang/releases) or [build it](https://github.com/vbmr/Boomerang#build).
+To get the jar, either download it from the releases tab here on [GitHub](https://github.com/ka-rar/boomerang/releases) or [build it](https://github.com/ka-rar/boomerang#build).
 
 ## Build
 [Git](https://git-scm.com/downloads) and Maven (`brew install maven`) are required to clone and build this project. Navigate to a new directory and run:
 ```cmd
-git clone https://github.com/vbmr/Boomerang
-cd Boomerang
+git clone https://github.com/ka-rar/boomerang
+cd boomerang
 mvn clean package
 ```
 Output jar will be located at `target/Boomerang.jar`.
+
+## Screenshots
+![1.png](assets/standstill.gif)
+![2.png](assets/demo.gif)
